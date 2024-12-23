@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Spaceship RPG</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="setupForm">
+        <h1>The Spaceship</h1>
+        <p>You're a bounty hunter in the B640 galaxy, accompanied by your trusty but slightly defective little robot, Watsy. </p>
+        <label for="mission">Mission:</label>
+        <select id="mission">
+            <option value="artifact">Recover an artifact from a smuggled ship</option>
+            <option value="rescue">Save a diplomat from mercenaries</option>
+        </select>
+        <br />
+        <button type="button" id="startGame">Get aboard your Spaceship !</button>
+    </form>
+
+    <div id="gameContent" style="display: none;">
+        <div id="story-box"></div>
+        <div id="choice-buttons"></div>
+        <p id="status"></p>
+    </div>
+
+    <script src="./script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Futura', sans-serif;
+    background: rgb(0, 0, 0);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+form, #gameContent {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+select, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+}
+
+button {
+    background-color: #1c8adb;
+    color: #fff;
+    cursor: pointer;
+}
+
+#story-box {
+    margin: 20px 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.character-name {
+    font-weight: bold;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1rem;
+}
