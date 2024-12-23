@@ -12,6 +12,5 @@ A simple interactive text-based RPG game where the player, guided by a defective
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/interactive-text-rpg-game.git
-2. Open index.html in a web browser.:
-   ```bash  
+2. Open index.html in a web browser.
 
